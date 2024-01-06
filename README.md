@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Приложение по Аренде Аппартаментов на React 🏠
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Добро пожаловать в репозиторий приложения по аренде аппартаментов, разработанного с использованием React и CSS-препроцессора. Это приложение предоставляет пользователю возможность просматривать доступные аппартаменты, получать информацию о них и отправлять запросы на аренду.
 
-## Available Scripts
+## Требования 🏡
 
-In the project directory, you can run:
+- [Node.js](https://nodejs.org/) (рекомендуется использовать LTS версию)
+- [npm](https://www.npmjs.com/) или [Yarn](https://yarnpkg.com/)
 
-### `npm start`
+## Установка 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Склонируйте репозиторий:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    ```bash
+    git clone https://github.com/your-username/apartment-app.git
+    ```
 
-### `npm test`
+2. Перейдите в директорию проекта:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    cd apartment-app
+    ```
 
-### `npm run build`
+3. Установите зависимости:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    или
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    yarn install
+    ```
 
-### `npm run eject`
+## Запуск 🏠
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Запустите локальный сервер для разработки:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    или
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    yarn start
+    ```
 
-## Learn More
+2. Откройте приложение в вашем браузере по адресу [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Функциональности 🌐
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Это приложение предоставляет простую, но стильную вёрстку для просмотра аппартаментов с применением небольших анимаций. Вот несколько ключевых функциональностей:
 
-### Code Splitting
+- **Просмотр аппартаментов:** Откройте приложение, чтобы увидеть красиво оформленный каталог аппартаментов. Пользователи могут легко просматривать фотографии и ознакомиться с кратким описанием каждого объекта.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Анимации:** Приложение включает в себя небольшие, но эффективные анимации, добавляющие живость при просмотре аппартаментов. Это создает более привлекательный и динамичный пользовательский опыт.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Технологии 🛠️
 
-### Making a Progressive Web App
+- [React](https://reactjs.org/) - Библиотека для создания пользовательских интерфейсов
+- CSS-препроцессор (например, [Sass](https://sass-lang.com/)) - Улучшение возможностей CSS
+- ...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Вклад в проект 🤝
 
-### Advanced Configuration
+Если у вас есть предложения по улучшению или вы нашли ошибку, пожалуйста, создайте [issue](https://github.com/your-username/apartment-app/issues) или отправьте [pull request](https://github.com/your-username/apartment-app/pulls).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Лицензия 📝
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Этот проект лицензирован под [MIT License](LICENSE).
