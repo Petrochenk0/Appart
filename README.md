@@ -12,13 +12,13 @@
 1. Склонируйте репозиторий:
 
     ```bash
-    git clone [https://github.com/Petrochenk0/apartment-app.git](https://github.com/Petrochenk0/Appart.git)
+    git clone https://github.com/Petrochenk0/Appart.git
     ```
 
 2. Перейдите в директорию проекта:
 
     ```bash
-    cd apartment-app
+    cd Appart
     ```
 
 3. Установите зависимости:
